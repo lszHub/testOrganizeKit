@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'testOrganizeKit_Example' do
+  pod 'testOrganizeKit', :path => '../'
+
+  target 'testOrganizeKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
